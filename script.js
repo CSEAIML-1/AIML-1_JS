@@ -36,10 +36,19 @@
 // document.write(result);
 // document.write("linebreak");
 
-var count;
-document.write("Starting Loop" + "<br>");
-for(count = 0; count < 10; count++){
-    document.write("current count" + count);
-    document.write("<br>");
+// var count;
+// document.write("Starting Loop" + "<br>");
+// for(count = 0; count < 10; count++){
+//     document.write("current count" + count);
+//     document.write("<br>");
+// }
+// document.write("Loop Ended");
+
+const person = {
+    fname: "ajay",
+    lname: "Singh",
+    age: 30,
+};
+for(let x in person){
+    console.log("person details:" + x + ":" + person[x]);
 }
-document.write("Loop Ended");
