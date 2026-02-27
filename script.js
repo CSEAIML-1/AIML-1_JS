@@ -116,6 +116,30 @@
 //     alert("Hello World!");
 // }
 
-function sayHello(name, age){
-    document.write(name + " is " + age + " years old.");
-}
+// function sayHello(name, age){
+//     document.write(name + " is " + age + " years old.");
+// }
+
+// var res = mul(12 , 30);
+// function mul(x , y){
+//     return x * y;
+// }
+// document.write(res);
+
+// var add2 = (a , b) => {
+//     console.log(a + b);
+// }
+// add2(102 , 20);
+
+var person = {
+    name : "Jhon Mac",
+    age : 30,
+    isMarried : false,
+    address : {
+        street : "vijay nagar",
+        flatNO : 101,
+    }
+};
+console.log(person);
+console.log(person.name);
+console.log(person.address.street);
