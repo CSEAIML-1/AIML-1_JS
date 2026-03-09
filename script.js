@@ -131,15 +131,43 @@
 // }
 // add2(102 , 20);
 
-var person = {
-    name : "Jhon Mac",
-    age : 30,
-    isMarried : false,
-    address : {
-        street : "vijay nagar",
-        flatNO : 101,
-    }
-};
-console.log(person);
-console.log(person.name);
-console.log(person.address.street);
+// var person = {
+//     name : "Jhon Mac",
+//     age : 30,
+//     isMarried : false,
+//     address : {
+//         street : "vijay nagar",
+//         flatNO : 101,
+//     }
+// };
+
+// let collection = [
+//     {},
+// [],
+// true,
+// "john",
+// function(){},
+// 90009898192,
+// undefined,
+// null,
+// new Date(),
+// new String("Hello World!"), 
+// ];
+// console.log(collection);
+// collection.teacherName = "John Mac";
+// collection.phoneNo = 1234567890;
+// console.log(collection);
+
+
+
+
+
+
+
+
+const result = document.getElementById("para");
+result.innerHTML = "my self";  
+result.title = "my name";
+
+const result2 = document.getElementsByClassName("para");
+result2[0].innerHTML = "hiii";  
